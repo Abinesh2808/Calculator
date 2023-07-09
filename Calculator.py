@@ -13,6 +13,7 @@ class Calculator:
         self.button_colour = "#f0f2f0"
         self.var = StringVar()
         self.action = ""
+        self.run()
 
     def button(self):
         buttons = ["C", "%", "⌫", "/", "7", "8", "9", "x", "4", "5", "6", "-", "1", "2", "3", "+", "00", "0", ".", "="]
@@ -74,4 +75,4 @@ class Calculator:
         self.root.mainloop()
 
 obj = Calculator()
-obj.run()
+
